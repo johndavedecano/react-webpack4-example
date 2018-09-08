@@ -1,0 +1,17 @@
+{
+    "presets": ["env", "react", "latest", "stage-2"],
+    "plugins": [
+      "syntax-dynamic-import",
+      "transform-class-properties",
+      "react-html-attrs",
+      "react-hot-loader/babel",
+      [
+        "transform-runtime",
+        {
+          "polyfill": false,
+          "regenerator": true
+        }
+      ]
+    ]
+  }
+  
